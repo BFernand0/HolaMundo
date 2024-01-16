@@ -1,10 +1,10 @@
 tasks:
-- init: ./gradlew build
+  - init: ./gradlew build
 image:
-file: .gitpod.Dockerfile
+  file: .gitpod.Dockerfile
 vscode:
-extensions:
-- jebbs.plantuml
-- contextmapper.context-mapper-vscode-extension
-- vscjava.vscode-java-pack
-- asciidoctor.asciidoctor-vscode
+  extensions:
+    - jebbs.plantuml
+    - contextmapper.context-mapper-vscode-extension
+    - vscjava.vscode-java-pack
+    - asciidoctor.asciidoctor-vscode
