@@ -1,3 +1,5 @@
+RUN curl -s "https://get.sdkman.io" | bash
+RUN bash -c "source /home/gitpod/.sdkman/bin/sdkmaninit.sh"
 FROM gitpod/workspace-full
 
 # Install Graphviz
